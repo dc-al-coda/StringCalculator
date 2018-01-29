@@ -33,6 +33,19 @@ class StringCalculatorTest {
                 assertEquals(sum, result, "String with two items does not work");
             }
         }
+
+        //string with any # items
+        String anyItems;
+        for(int x = -1; x < 2; x++){
+            for(int y = -1; y < 2; y++){
+                for(int z = -1; y < 2; y++) {
+                    sum = x + y + z;
+                    anyItems = Integer.toString(x) + "," + Integer.toString(y)  + "," + Integer.toString(z);
+                    result = functions.add(anyItems);
+                    assertEquals(sum, result, "String with two items does not work");
+                }
+            }
+        }
     }
 
 }
