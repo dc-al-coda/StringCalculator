@@ -8,7 +8,7 @@ class StringCalculatorTest {
      *
      */
     void addTest(){
-        StringCalculator functions = new StringFunctionsImpl();
+        StringCalculator functions = new StringCalculatorImpl();
         //empty string
         String empty = "";
         int result = functions.add(empty);
