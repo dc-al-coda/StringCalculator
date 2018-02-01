@@ -2,5 +2,5 @@ package ithaca.ben.brown;
 
 public interface StringCalculator {
 
-    public int add(String numbers);
+    int add(String numbers);
 }

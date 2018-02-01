@@ -3,8 +3,8 @@ package ithaca.ben.brown;
 public class StringCalculatorImpl implements StringCalculator {
     @Override
     public int add(String numbers){
-        /**Adds numbers in a string
-         * The string will have a comma between numbers, no spaces*/
+        /*Adds numbers in a string
+          The string will have a comma between numbers, no spaces*/
         if(numbers.length() == 0) {
             return 0;
         }

@@ -6,9 +6,6 @@ class StringCalculatorTest {
     private StringCalculatorImpl functions = new StringCalculatorImpl();
 
     @org.junit.jupiter.api.Test
-    /**
-     *
-     */
     void addTest(){
 
         //empty string
