@@ -52,4 +52,10 @@ class StringCalculatorTest {
         assertEquals(0, result2, "String with commas doesn't work");
     }
 
+    void countToFive(){
+        int y = 0;
+        for(int x = 1; x < 6; x++){
+            y = x;
+        }
+    }
 }

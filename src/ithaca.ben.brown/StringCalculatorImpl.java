@@ -14,18 +14,18 @@ public class StringCalculatorImpl implements StringCalculator {
         }
         else{
             int sum = 0, i1 = 0, i2;
-            String sub = "";
+            String dom = "";
             for(int x = 0; x < numbers.length(); x++) {
                 if(numbers.charAt(x) == ','){
                     i2 = x;
-                    sub = numbers.substring(i1, i2);
-                    sum += Integer.parseInt(sub);
+                    dom = numbers.substring(i1, i2);
+                    sum += Integer.parseInt(dom);
                     i1 = x+1;
                 }
             }
             i2 = numbers.length();
-            sub = numbers.substring(i1, i2);
-            sum += Integer.parseInt(sub);
+            dom = numbers.substring(i1, i2);
+            sum += Integer.parseInt(dom);
             return sum;
         }
     }
