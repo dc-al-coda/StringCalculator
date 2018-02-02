@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d7f9cc-cb56-4435-b229-2c081b25531a" name="Default" comment="+ Added test for string with commas, but it works fine.">
+    <list default="true" id="99d7f9cc-cb56-4435-b229-2c081b25531a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/ithaca.ben.brown/StringCalculatorImpl.java" afterPath="$PROJECT_DIR$/src/ithaca.ben.brown/StringCalculatorImpl.java" />
-      <change beforePath="$PROJECT_DIR$/test/ithaca/ben/brown/StringCalculatorTest.java" afterPath="$PROJECT_DIR$/test/ithaca/ben/brown/StringCalculatorTest.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringCalculatorImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringCalculatorImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ithaca.ben.brown/StringCalculatorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/ithaca.ben.brown/StringCalculator.java" />
         <option value="$PROJECT_DIR$/test/ithaca/ben/brown/StringCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/ithaca.ben.brown/StringCalculatorImpl.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -323,6 +333,14 @@
       <workItem from="1517498232392" duration="323000" />
       <workItem from="1517498702658" duration="87000" />
     </task>
+    <task id="LOCAL-00001" summary="+ Added test for string with commas, but it works fine.">
+      <created>1517582276683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517582276683</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -676,6 +694,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
