@@ -50,6 +50,8 @@ class StringCalculatorTest {
         String commas = ",,,";
         int result2 = functions.add(empty);
         assertEquals(0, result2, "String with commas doesn't work");
+
+        //String with newline delimeters
     }
 
 }
